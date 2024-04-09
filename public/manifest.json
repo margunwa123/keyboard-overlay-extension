@@ -1,0 +1,19 @@
+{
+  "name": "A chrome extension",
+  "description": "",
+  "version": "0.0.0",
+  "manifest_version": 3,
+  "author": "",
+  "action": {
+    "default_popup": "html/popup.html",
+    "default_title": "",
+    "default_icon": "favicon.png"
+  },
+  "background": {
+    "service_worker": "js/background.js",
+    "type": "module"
+  },
+  "permissions": [],
+  "minimum_chrome_version": "109",
+  "options_page": "html/index.html"
+}
